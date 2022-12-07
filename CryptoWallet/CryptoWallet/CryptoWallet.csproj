@@ -50,6 +50,8 @@
     <Compile Include="Classes\SolanaWallet.cs" />
     <Compile Include="Classes\Wallet.cs" />
     <Compile Include="Enums\WalletEnum.cs" />
+    <Compile Include="Interfaces\IFungible.cs" />
+    <Compile Include="Interfaces\INonFungible.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Transactions\FungibleAssetTransakcija.cs" />
@@ -58,8 +60,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

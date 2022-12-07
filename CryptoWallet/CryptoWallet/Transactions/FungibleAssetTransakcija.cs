@@ -38,6 +38,8 @@ namespace CryptoWallet.Transactions
             AdresaWalletaPošiljateljFungibleAsseta = adresaWalletaPosiljatelj;
 
             AdresaWalletaPrimateljFungibleAsseta = adresaWalletaPrimatelj;
+
+
         }
     }
 }
